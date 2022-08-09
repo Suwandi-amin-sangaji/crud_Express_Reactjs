@@ -1,0 +1,29 @@
+GET http://localhost:5001/users
+
+
+###
+GET http://localhost:5001/users/4
+
+
+###
+POST http://localhost:5001/users
+Content-Type: application/json
+
+{
+    "name": "Amellia",
+    "email": "amellia@gmail.com",
+    "gender":"Famale"
+}
+####
+PUT  http://localhost:5001/users/4
+Content-Type: application/json
+
+{
+    "name": "Suwandi Amin Sangaji",
+    "email": "suwandiaminsangaji@gmail.com",
+    "gender":"Male"
+}
+
+
+####
+DELETE  http://localhost:5001/users/5
